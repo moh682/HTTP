@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>HTTP project</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="newcss.css" rel="stylesheet" type="text/css"/>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <p class="navbar-brand">HTTP PROJECT</p>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a class="btn btn-danger" href="Exercises.html"> Exercises</a></li>
+            </ul>
+        </div>
+    </nav>
+    </head>
+    <body>
+        <div style="margin-left: 10px">
+            1. What is the purpose on Nginx (a reverse proxy) as used in this week
+            <p>Its purpose is, so outsiders can't access my tomcat directly</p>
+            <p>they must be redirected from my nginx page, for security reasons.</p>
+            <br>
+            2. What is the purpose of a ssl-certificate, and for your certificate answer the following questions
+            <p>the purpose for SSL is to make it so there is no middle man listening.</p>
+            <br>
+                -  Who is your certificate issued to
+                <p>haririapps.com</p>
+                <br>
+                - What is the expiry date for your certificate
+                <p>29. november 2018 kl. 10.52.50, although i made it so it auto. updates</p>
+                <br>
+                - Who/what guarantees that your certificate is valid and not a certificate from a “man in the middle”
+                <p>Let's Encrypt Authority X3</p>
+                <br>
+                - What is the value of the public key, contained in your certificate
+                <p>256 byte: 98 90 96 98 62 7B 0A 70 4C 11 5C BF B6 C6 92 75 E7 C6 57 60 09 CF 97 46 EA 98 A7 E3 1F 78 </p>
+                <p>D1 C4 66 05 18 81 96 B7 02 9D C7 57 48 65 85 13 53 89 E4 F4 4D B7 6C A9 FA C7 22 08 44 C0 7E 40 01 </p>
+                <p>30 65 DD E5 72 55 10 07 0B AE AD CB D8 DA 91 E4 28 06 EB C0 52 02 7B 68 B3 54 39 31 9E C7 0D 09 0D </p>
+                <p>73 6C 03 74 EA FB 50 21 7D B3 20 D0 31 8B 7D 50 4B E7 C9 7F 30 16 95 9B 3E F1 08 43 93 5F 3D D6 D1 </p>
+                <p>F3 26 A4 9C C6 1E AE BD 6F 9E 7D 41 19 5F DC 03 86 6C 6D BE 6E 67 43 41 EB 59 74 23 00 6B 5E 47 46 </p>
+                <p>71 29 5D A1 4C CC E7 5A 1B A3 E9 71 43 41 C3 2D 3C 6C 07 C7 8D ED DC 4A 12 F9 5C 0C 33 25 7F CB 99 </p>
+                <p>8E 2F F3 4A C4 3C 73 86 E8 69 56 7E A6 B4 7C B2 01 ED 6E 13 79 BC 76 08 0F BC F5 77 D5 05 17 2D 63 </p>
+                <p>07 2A A0 FC 88 84 17 0E 57 E9 12 B8 77 20 C5 84 9D CA 72 6D 81 1C B8 94 36 17 24 BD</p>
+        </div>
+    </body>
+</html>

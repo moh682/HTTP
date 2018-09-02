@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <title>HTTP project</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="newcss.css" rel="stylesheet" type="text/css"/>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <p class="navbar-brand">HTTP PROJECT</p>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a class="btn btn-danger" href="Exercises.html"> Exercises</a></li>
+            </ul>
+        </div>
+    </nav>    
+</head>
+<body>
+
+    <div class="container text-center">
+        <h1>Exercise 1/2</h1>
+
+        <img class="picture" src="ape.png" width="600" height="500">
+
+        <br>
+        <p>the status code: 304 "not modified" which mean there is no need to reredirect, beacuase </p>
+        <p>its already in the cache, thats because i already did redirect to it first time.</p>
+        
+        <br>
+
+        <h3>What i see</h3>
+
+        <p>i see response headers, which come with the response object. and the same with the request headers.</p>
+        <p>in the request header we can see which HTTP method were used and host etc.</p>
+        <br>
+        <p>status code 200</p>
+        <br>
+        <p>after the changes have been done with the image, the status code is 200</p>
+        <p>and the new headers(css, image) can be seen in network.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>HTTP project</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="newcss.css" rel="stylesheet" type="text/css"/>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <p class="navbar-brand">HTTP PROJECT</p>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a class="btn btn-danger" href="Exercises.html"> Exercises</a></li>
+            </ul>
+        </div>
+    </nav>
+
+</head>
+<body>
+    <div style="margin-left: 10px">
+    <h1>Exercise 5</h1>
+
+    <form action="#" method="GET">
+        <input type="hidden" name="hidden" value="12345678">
+        Username:<br>
+        <input type="text" name="username">
+        <br>
+        Password:<br>
+        <input type="text" name="password">
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <p>when using GET method, username and password will be viewed in the request name. and in form DATA</p>
+    <p>when using POST method, username and password will only be viewed in form DATA.</p>
+    <p>Hidden value will also be viewed from there.</p>
+</div>
+</body>
+</html>
